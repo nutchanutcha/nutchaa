@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>  
+</head>
+<body>
+    <h1>Input Form</h1>
+<form accept="#">
+<table>
+<tr>
+    <td><label for="username">username</label></td>
+    <td><input type="email" name="email" id="email"></td>
+</tr>
+<tr>
+   <td><label for="password">password</label></td>
+   <td><input type="password" name="password" id="password"></td>
+</tr>
+<tr>
+    <td><label for="city">city of Employment: </label></td>
+    <td><input type="text" name="city" id="city"></td>
+</tr>
+<tr>
+    <td><label for="wed">wed server: </label></td>
+<td>
+<select name="wed" id="wed">
+    <option value="blank">---Choose a server---</option>
+    <option value="google">google</option>
+    <option value="facebook">facebook</option>
+    <option value="twitter">twitter</option>
+ </select>
+ </td>
+</tr>
+<tr>
+    <td><label for="role">Please specify your role: </label></td>
+<td>
+    <input type="radio" name="role" id="admin">Admin<br>
+    <input type="radio" name="role" id="engineer">Engineer<br>
+    <input type="radio" name="role" id="manager">Manager<br>
+    <input type="radio" name="role" id="guest">Guest<br>
+ </td>
+</tr>
+<tr>
+<td><label for="sing">Sing Sing-on to the fllowing: </label></td>
+<td>
+    <input type="checkbox" name="sing" id="mail">Mail<br>
+    <input type="checkbox" name="sing" id="payroll">Payroll<br>
+    <input type="checkbox" name="sing" id="selfservice">Selfservice<br>
+ </td>
+</tr>
+<tr>
+<td style="text-align: center;" colspan="2">
+    <input type="submit" value="Login">
+    <input type="button" value="Reset">
+ </td>
+</tr>
+
+</table>
+
+</form>
+</body>
+</html>
